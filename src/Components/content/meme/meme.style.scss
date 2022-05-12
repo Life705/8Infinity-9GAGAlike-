@@ -1,0 +1,61 @@
+.container-meme {
+  min-height: 100%;
+  width: 100%;
+  margin-right: 25%;
+  // background: rgb(30, 116, 149);
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.article {
+  min-height: 500px;
+  width: 700px;
+  border: solid 2px black;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+}
+.span {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.title {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.img-meme {
+  width: 600px;
+}
+.vote {
+  font-weight: 900;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  padding: 15px;
+  border: solid 2px white;
+  width: 40px;
+  margin: 15px;
+
+  &:hover {
+    background-color: rgb(119, 119, 119);
+    cursor: pointer;
+  }
+}
+.downvote {
+  margin-left: 20px;
+  &:hover {
+    background-color: rgb(119, 119, 119);
+    cursor: pointer;
+  }
+}
+.votes {
+  display: flex;
+}
+.voted {
+  background-color: rgb(172, 172, 172);
+}

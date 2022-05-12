@@ -1,0 +1,122 @@
+.uploud-btn {
+  font-size: 0.8rem;
+  background: grey;
+  border: none;
+  text-align: center;
+  // border: solid 1px;
+  background: rgb(75, 75, 200);
+  padding: 10px;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  &:hover {
+    background: rgb(70, 70, 184);
+    color: rgb(233, 233, 233);
+  }
+}
+.uploud {
+  color: white;
+}
+.container-uploud {
+  position: fixed;
+  height: 450px;
+  width: 400px;
+  background-color: rgb(116, 113, 112);
+  top: 150px;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.url-div {
+  margin: 5px 0 5px 0;
+}
+.url-input {
+  width: 97%;
+  resize: none;
+  height: 35px;
+  margin: 5px 0 5px 0;
+  &:focus {
+    outline: none;
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+}
+.post-btn {
+  height: 45px;
+  width: 100px;
+  background-color: rgb(108, 108, 255);
+  color: white;
+  border: none;
+  text-align: center;
+  font-weight: 900;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 150px;
+  &:hover {
+    background-color: rgb(129, 129, 255);
+  }
+  &:active {
+    background-color: rgb(94, 94, 255);
+  }
+}
+.chose {
+  position: fixed;
+  top: 171px;
+  left: 0px;
+  height: 35px;
+  width: 40%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  &:hover {
+    background-color: rgb(219, 219, 219);
+  }
+  &:active {
+    background-color: rgb(189, 188, 188);
+  }
+}
+.initial-category-text {
+  position: absolute;
+  left: 0px;
+  top: 173px;
+  background-color: white;
+  height: 35px;
+  width: 200px;
+  color: black;
+  &:hover {
+    background-color: rgb(226, 226, 226);
+  }
+}
+.new-container {
+  position: absolute;
+  left: 0px;
+  top: 173px;
+  display: flex;
+  flex-direction: column;
+}
+.divCategory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  height: 35px;
+}
+.overlay-category {
+  background-color: rgba(98, 98, 98, 0.527);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.off {
+  display: none;
+}

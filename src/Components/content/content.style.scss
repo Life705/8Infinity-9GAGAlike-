@@ -1,0 +1,49 @@
+.overlay-meme {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  // background-color: rgb(212, 212, 224);
+  z-index: 3;
+  overflow: auto;
+}
+.container {
+  max-height: 300px;
+  width: 200px;
+  // background-color: rgb(36, 36, 117);
+  margin-top: 90px;
+  margin-left: 200px;
+}
+.category {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(83, 83, 83);
+  }
+}
+.img-category {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+li {
+  list-style: none;
+}
+.span {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.list {
+  display: flex;
+  color: white;
+}
+.category-span {
+  padding-bottom: 15px;
+  color: rgb(153, 153, 153);
+}
